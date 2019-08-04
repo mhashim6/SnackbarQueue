@@ -28,6 +28,6 @@ allprojects {
 Add the dependency:  
 ``` groovy  
 dependencies {  
- implementation 'com.github.mhashim6:SnackbarQueue:1.0'
+ implementation 'com.github.mhashim6:SnackbarQueue:1.2'
  }  
 ```
