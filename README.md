@@ -17,12 +17,17 @@ Snackbar.make(root, R.string.goodbye_tutorial, LENGTH_LONG).enqueue() //last one
   
 Add it in your root build.gradle at the end of repositories:  
   
-```groovy  
+``` groovy  
 allprojects {  
- repositories { ... maven { url 'https://jitpack.io' } }}  
+    repositories { 
+       ... 
+       maven { url 'https://jitpack.io' } 
+    }
+ }  
 ```  
 Add the dependency:  
-```groovy  
+``` groovy  
 dependencies {  
- implementation 'com.github.mhashim6:SnackbarQueue:1.0'}  
+ implementation 'com.github.mhashim6:SnackbarQueue:1.0'
+ }  
 ```
