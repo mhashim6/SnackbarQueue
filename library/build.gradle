@@ -1,7 +1,7 @@
 ext {
     PUBLISH_GROUP_ID = 'mhashim6.android.lib'
     PUBLISH_ARTIFACT_ID = 'snackbar-queue'
-    PUBLISH_VERSION = '1.1'
+    PUBLISH_VERSION = '1.3'
 }
 
 apply plugin: 'com.android.library'
